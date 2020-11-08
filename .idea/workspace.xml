@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0016bfe1-ec85-4d48-820e-b3b2e305d51a" name="Default Changelist" comment="" />
+    <list default="true" id="0016bfe1-ec85-4d48-820e-b3b2e305d51a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/rest_api_a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest_api_a.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/app/.flake8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="e5962253-ee0b-4213-addd-bc10c9dd7ddf" />
   <component name="ProjectId" id="1jzLPL0lf8l1GpHegDmoetwEZx6" />
@@ -34,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604801947395</updated>
       <workItem from="1604801948471" duration="2836000" />
+      <workItem from="1604805707068" duration="3238000" />
     </task>
     <servers />
   </component>
@@ -49,9 +66,10 @@
       <screen x="-572" y="-1057" width="2560" height="1057" />
     </state>
     <state x="496" y="-768" key="FileChooserDialogImpl/47.23.1393.877/-572.-1057.2560.1057@-572.-1057.2560.1057" timestamp="1604802105859" />
-    <state x="217" y="-890" key="SettingsEditor" timestamp="1604802142964">
+    <state x="217" y="-890" key="SettingsEditor" timestamp="1604806233439">
       <screen x="-572" y="-1057" width="2560" height="1057" />
     </state>
     <state x="217" y="-890" key="SettingsEditor/47.23.1393.877/-572.-1057.2560.1057@-572.-1057.2560.1057" timestamp="1604802142964" />
+    <state x="217" y="-890" key="SettingsEditor/49.23.1391.877/-572.-1057.2560.1057@-572.-1057.2560.1057" timestamp="1604806233439" />
   </component>
 </project>
