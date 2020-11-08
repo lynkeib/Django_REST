@@ -1,2 +1,8 @@
-# Django_REST
- Django Rest Framework
+## Tech Stack
+= Docker
+- Travis CI
+- Python
+- Django
+- Django Rest Framework
+
+## API Intro
