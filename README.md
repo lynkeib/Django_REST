@@ -14,3 +14,5 @@
 An API for managing personal recipe 
 - Get all recipes  
 GET /api/recipe/
+- Create recipe  
+POST /api/recipe/
