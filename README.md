@@ -11,3 +11,6 @@
 - Mocking with unittests: testing database connection before other command
 
 ## API Intro
+An API for managing personal recipe 
+- Get all recipes  
+GET /api/recipe/
