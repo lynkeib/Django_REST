@@ -16,3 +16,9 @@ An API for managing personal recipe
 GET /api/recipe/
 - Create recipe  
 POST /api/recipe/
+- Update partial recipe  
+PATCH /api/recipe/<id>
+- Update full recipe  
+PUT /api/recipe/<id>
+- Remove a recipe  
+DELETE /api/recipe/<id>
