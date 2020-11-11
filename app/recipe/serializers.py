@@ -50,3 +50,12 @@ class RecipeDetailSerializer(RecipesSerializer):
         many=True,
         read_only=True
     )
+
+
+class RecipeImageSerializer(serializers.ModelSerializer):
+    """Serializer for uploading images to recipes"""
+
+    class Mate:
+        model = Recipe
+        fields = ("id", "image",)
+        read_only_fields = ("id",)
