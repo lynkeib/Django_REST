@@ -4,7 +4,7 @@ from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APIClient
 
-from core.models import Ingredient
+from core.models import Ingredient, Recipe
 from recipe.serializers import IngredientsSerializer
 
 INGREDIENTS_URL = reverse("recipe:ingredient-list")
@@ -66,3 +66,45 @@ class PrivateIngredientsApiTests(TestCase):
         payload = {"name": ""}
         res = self.client.post(INGREDIENTS_URL, payload)
         self.assertEqual(res.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_retrieve_ingredients_assigned_to_recipes(self):
+        """Test filtering ingredients by those assigned to recipes"""
+        ingredient1 = Ingredient.objects.create(user=self.user, name="Test1")
+        ingredient2 = Ingredient.objects.create(user=self.user, name="Test2")
+
+        recipe = Recipe.objects.create(
+            title="test1",
+            time_minutes=10,
+            price=5.00,
+            user=self.user
+        )
+        recipe.tags.add(ingredient1)
+        res = self.client.get(INGREDIENTS_URL, {"assigned_only": 1})
+
+        serializer1 = IngredientsSerializer(ingredient1)
+        serializer2 = IngredientsSerializer(ingredient2)
+        self.assertIn(serializer1.data, res.data)
+        self.assertNotIn(serializer2.data, res.data)
+
+    def test_retrieve_ingredients_assigned_unique(self):
+        """Test filtering tags by assigned returns unique items"""
+        ingredient1 = Ingredient.objects.create(user=self.user, name="Test1")
+        ingredient2 = Ingredient.objects.create(usser=self.user, name="Test2")
+
+        recipe1 = Recipe.objects.create(
+            title="test1",
+            time_minutes=5,
+            price=5.00,
+            user=self.user
+        )
+        recipe2 = Recipe.objects.create(
+            title="test2",
+            time_minutes=5,
+            price=5.00,
+            user=self.user
+        )
+        recipe1.tags.add(ingredient1)
+        recipe2.tags.add(ingredient1)
+
+        res = self.client.get(INGREDIENTS_URL, {"assigned_only": 1})
+        self.assertEqual(len(res.data), 1)
