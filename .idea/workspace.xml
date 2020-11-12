@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0016bfe1-ec85-4d48-820e-b3b2e305d51a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
@@ -51,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604801947395</updated>
       <workItem from="1604801948471" duration="2836000" />
-      <workItem from="1604805707068" duration="33589000" />
+      <workItem from="1604805707068" duration="34648000" />
     </task>
     <servers />
   </component>
@@ -72,5 +69,9 @@
     </state>
     <state x="217" y="-890" key="SettingsEditor/47.23.1393.877/-572.-1057.2560.1057@-572.-1057.2560.1057" timestamp="1604802142964" />
     <state x="217" y="-890" key="SettingsEditor/49.23.1391.877/-572.-1057.2560.1057@-572.-1057.2560.1057" timestamp="1604806233439" />
+    <state x="373" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1605143972018">
+      <screen x="-572" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="373" y="-822" width="670" height="676" key="search.everywhere.popup/43.23.1397.877/-572.-1057.2560.1057@-572.-1057.2560.1057" timestamp="1605143972018" />
   </component>
 </project>
